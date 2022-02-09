@@ -1,0 +1,40 @@
+<h2>Booking Details</h2> 
+<nav class="navbar navbar-expand-sm btn btn-primary navbar-dark"></nav>
+
+<hr/>
+<div *ngIf="canteen">
+  <div>
+    <label><b>Place </b></label> {{canteen.place}}
+  </div>
+</div>
+<!-- <div>
+  <label><b>CanteenNo: </b></label> {{canteen.canteenNo}}
+</div>-->
+  <div> 
+    <label><b>CompanyName </b></label> {{canteen.companyName}}
+  </div>
+  <div>
+    <div> 
+      <label><b>PhoneNo </b></label> {{canteen.phoneNo}}
+    </div>
+    <div>
+    <label><b>EmailId </b></label> {{canteen.emailId}}
+  </div>
+  <div>
+    <label><b>Date</b></label> {{canteen.date}}
+  </div>
+  <!-- <div>
+    <label><b>CanteenNo: </b></label> {{canteen.canteenNo}}
+  </div>-->
+  <!-- <div> 
+    <label><b>Select Canteen: </b></label> {{canteen.selectCanteen}}
+  </div>   -->
+  <div>
+    <label><b>ShopName </b></label> {{canteen.shopName}}
+  </div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Booked Details</button><br>
+
+
